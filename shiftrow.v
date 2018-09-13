@@ -4,7 +4,7 @@ module shiftrow(in , out );
 
 
 /*	A00 A01 A02 A03			A00 A01 A02 A03
-	A10 A11 A12 A13	    shiftrow	A13 A10 A12 A13
+	A10 A11 A12 A13	    shiftrow	A13 A10 A11 A12
 	A20 A21 A22 A23   ------------> A22 A23 A20 A21
 	A30 A31 A32 A33 		A33 A30 A31 A32
 futher assign the column of second matrix to out wire of the module */
